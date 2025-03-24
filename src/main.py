@@ -583,7 +583,7 @@ async def process_query(state: State) -> State:
            - Sé conciso y directo
            - Usa viñetas para cada punto
            - Cita las fuentes
-           - Resalta fechas importantes
+           - Resalta fechas importantes.
 
         RESPONDE AHORA en {language_response}. Traduce incluso la información que has encontrado:"""
         print(prompt)
