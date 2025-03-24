@@ -5,15 +5,16 @@ WORKDIR /app
 # Copy requirements file
 COPY requirements.txt .
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Install dependencies and langchain-community
+RUN pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir langchain-community
 
-# Copy application code
-COPY src .
-COPY run.py .
+# Copy application code maintaining the src structure
+COPY . .
 
 # Set environment variables for Python unbuffered output
 ENV PYTHONUNBUFFERED=1
+ENV PYTHONPATH=/app
 
 # The following environment variables will be provided by ECS Task Definition:
 # OPENAI_API_KEY
