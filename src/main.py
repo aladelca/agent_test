@@ -941,7 +941,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if update.message and update.message.document:
             await update.message.reply_text(
                 "❌ Lo siento, la subida de documentos no está disponible en este momento.\n"
-                "Por favor, contacta al administrador del curso para subir documentos."
+                "Por favor, contacta al administrador del curso para esta función."
             )
             return
 
