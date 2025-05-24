@@ -8,7 +8,7 @@ A multilingual Telegram bot for managing university course information, updates,
 - 📚 Course Information Management
 - 📝 Real-time Course Updates
 - 📄 Document Management with S3 Storage
-- 🔍 Semantic Search Capabilities
+- 🔍 Semantic Search Capabilities.
 - 🤖 AI-Powered Content Moderation
 - 📅 Academic Cycle Management
 - 👥 Section-based Organization
