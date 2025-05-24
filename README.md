@@ -69,7 +69,7 @@ docker tag course-bot:latest your-account-id.dkr.ecr.your-region.amazonaws.com/c
 docker push your-account-id.dkr.ecr.your-region.amazonaws.com/course-bot:latest
 ```
 
-3. Create ECS Cluster:
+3. Create ECS Cluster AWS:
    - Go to AWS ECS Console
    - Create new cluster using Fargate
    - Configure networking (VPC, subnets)
